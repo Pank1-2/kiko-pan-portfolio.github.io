@@ -249,10 +249,18 @@
         <p class="usertestOne-info">
         We started off the prototyping session by introducing our app extension idea and showing users a little bit of how it works. We first showed the audience a tutorial of our group dance when it was edited together. This was made to give users a feel of the viewer experience since we can’t edit their videos together during the short prototyping session. We also had a Slido pulled up on the screen for the audience to comment as we played the video to create a more interative and immersive experience.
         </p>
-        <div class="video-container">
+        <!-- <div class="video-container">
           <iframe src="https://drive.google.com/file/d/1BhJNtHGuD_oCuPYyQXlcuM42e5pPabat/preview" width="600" height="350"></iframe>
           <p class="vid-text">Group Tutorial Video</p>
+        </div> -->
+        <div class="video-container">
+          <video height="500" controls>
+            <source src="images/group-tutorial.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="vid-text">Group Tutorial Video</p>  
         </div>
+
         <p class="usertestOne-info">
         We set the scene for our users by walking them through step by step. Once they get a notification for BeReal Jam, they will click on the notification, read the instructions, and see the song they will be dancing to.
         </p>
@@ -264,14 +272,20 @@
         </p>
         <div class="video-container-2">
           <div class="video-wrapper">
-              <iframe src="https://drive.google.com/file/d/1cVqwyzqE3YZELKWArYWt0M_fAH-E87e5/preview" width="450" height="300"></iframe>
-              <p class="vid-text">Tutorial Video</p>
+            <video height="500" width="250" controls>
+              <source src="images/tutorial-video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">Tutorial Video</p>
           </div>
           <div class="video-wrapper">
-              <iframe src="https://drive.google.com/file/d/11aOrpbDLuR1aYclOajmF_nqb8Fc7Ym8I/preview" width="450" height="300"></iframe>
-              <p class="vid-text">Example Recording Setup</p>
+            <video height="500" width="250" controls>
+              <source src="images/example-recording-setup.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">Example Recording Setup</p>
           </div>
-        </div> 
+        </div>
         <p class="usertestOne-info">
           To create a playable prototype for a big class with a time limit, we decided to break up the class into 4 groups with one group in each corner of the room. Each group was assigned a leader.
         </p>
@@ -286,7 +300,7 @@
         <p class="usertestOne-info">
           After the 5 minutes, we recorded the dance giving them two tries, one practice round, and one official round. Then we showed them their dance video with a Slido chat, facilitating a comment feature to enhance user interaction and provide a richer, more immersive experience within the app.
         </p>
-        <div class="video-container-2">
+        <!-- <div class="video-container-2">
           <div class="video-wrapper">
               <iframe src="https://drive.google.com/file/d/1Knv-M-eIBVb_PKUKmYrJncXGbnaw4jCt/preview" width="450" height="300"></iframe>
               <p class="vid-text">In Class Dance Video</p>
@@ -295,7 +309,23 @@
               <iframe src="https://drive.google.com/file/d/1Dzt_pi_A7WF9Tbychj4ZO7z_nUYrus0T/preview" width="450" height="300"></iframe>
               <p class="vid-text">Slido Chat</p>
           </div>
-        </div> 
+        </div>  -->
+        <div class="video-container-2">
+          <div class="video-wrapper">
+            <video height="500" width="250" controls>
+              <source src="images/wk8_inclass_mashup.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">In Class Dance Video</p>
+          </div>
+          <div class="video-wrapper">
+            <video id="slidoChatVideo" height="500" width="400" controls>
+              <source src="images/slido-chat-1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">Slido Chat</p>
+          </div>
+        </div>
         <p class="usertestOne-info">
           The app extension idea is meant to be done in alone or in small groups. Given some constraints, we did the dance in larger groups and recorded the video in one go to avoid editing. 
         </p>
@@ -364,7 +394,7 @@
           <p></p>
           The rest of the class was the audience and they watched both teams side by side. We also had a slido for comments as they watched the teams dance live. 
         </p>
-        <div class="video-container-2">
+        <!-- <div class="video-container-2">
           <div class="video-wrapper">
               <iframe src="https://drive.google.com/file/d/1pipH9E9RcWShmZgD4ZfpxBcgoG6KX3Ns/preview" width="450" height="300"></iframe>
               <p class="vid-text">Dance Challenge</p>
@@ -373,7 +403,24 @@
               <iframe src="https://drive.google.com/file/d/1UTuwf07IB5qbCfudH1MDSL2shH42eTEJ/preview" width="450" height="300"></iframe>
               <p class="vid-text">Slido Chat</p>
           </div>
-        </div> 
+        </div>  -->
+        <div class="video-container-2">
+          <div class="video-wrapper">
+            <video height="500" width="250" controls>
+              <source src="images/wk10_inclass_dancechallenge.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">Dance Challenge</p>
+          </div>
+        
+          <div class="video-wrapper">
+            <video id="slidoChatVideo" height="500" width="400" controls>
+              <source src="images/slido-chat2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="vid-text">Slido Chat</p>
+          </div>
+        </div>
         <p class="testing-info">
           After the dance, they voted for which team did it best!
         </p>
@@ -411,7 +458,10 @@
       </div>
       <h6 class="objectives-heading">Final Prototype</h6>
       <div class="video-container">
-        <iframe src="https://drive.google.com/file/d/1cBpSyapRFn_Xhd8BMG5T8wh3bwVfvfnL/preview" width="600" height="350"></iframe>
+        <video height="500" controls>
+          <source src="images/bereal-prototype.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
 

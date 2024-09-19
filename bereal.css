@@ -267,9 +267,6 @@ li{
     text-align: center;
     margin-top: 20px; 
 }
-.video-container iframe {
-    max-width: 100%;
-} 
 .vid-text{
     font-style: italic;
     font-size: 15px;
@@ -278,12 +275,14 @@ li{
 .video-container-2 {
     display: flex;
     justify-content: center;
-    gap: 20px; 
+    gap: 150px; 
     padding-top: 15px;
+    flex-wrap: wrap; 
 }
 .video-wrapper {
     text-align: center;
 }
+
 /* user testing 2 */
 .testing-header{
     padding-top: 20px;
@@ -302,7 +301,7 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     height: auto;
     max-width: 100%;
     padding-top: 20px;
@@ -320,10 +319,11 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 100%;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 /* final design */
 .final-design-info{
@@ -337,7 +337,7 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 100%;
     padding-top: 20px;
@@ -402,5 +402,12 @@ footer p{
         margin-top: 10px;
         width: 450px;
         margin-right: 20%;
+    }
+    .video-container-2 {
+        gap: 10px;        
+    }
+    
+    .video-wrapper {
+        max-width: 100%;   
     }
 }

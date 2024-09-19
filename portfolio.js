@@ -24,3 +24,10 @@ document.querySelectorAll('a.button').forEach(button => {
         }, 500);
     });
 });
+
+
+window.onload = function() {
+    var slidoChatVideo = document.getElementById('slidoChatVideo');
+    slidoChatVideo.playbackRate = 0.75;
+  };
+  
