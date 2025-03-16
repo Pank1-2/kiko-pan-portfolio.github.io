@@ -1,0 +1,273 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+body {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+body.fade-in {
+    opacity: 1;
+}
+/* navbar  */
+.navbar{
+    padding: 10px 40px;
+    background-color: #0e0e0e;
+    box-shadow: 0 4px 6px rgba(46, 43, 43, 0.4);
+}
+.navbar-nav .nav-link:hover {
+    color: #b962e9 !important;
+    font-weight: 500;
+    border-top: 3px solid #b962e9;
+    line-height: 28px; 
+}
+.logo-img{
+    height: 60px;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white !important;
+}
+.navbar-brand:hover{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #b962e9 !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    border-top: 2px solid white; 
+    margin-right: 20px; 
+    margin-top: 10px;
+    transition: color 0.5s ease, border-top-color 0.5s ease; 
+}
+/* intro section  */
+.left-col{
+    height: 100vh;
+    padding-top: 20%;
+    padding-left: 15%;
+    background-color: #1c1d1e;
+}
+.right-col{
+    height: 100vh;
+    padding-top: 8%;
+    padding-left: 5%;
+    background-color: #1c1d1e;
+}
+.og-website{
+    background-color: #b962e9;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    vertical-align: top;
+    border: 2px solid transparent; /* Add this line to handle border changes */
+    box-sizing: border-box; /* Ensure padding and border are included in the size */
+}
+.og-website:hover{
+    background-color: transparent;
+    border: 2px solid #b962e9;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.figma-link:hover{
+    background-color: #b962e9;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+.figma-link{
+    background-color: transparent;
+    border: 2px solid #b962e9;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+.space-between {
+    margin-left: 20px; 
+}
+.text-section{
+    background-color: transparent;
+}
+.text-section h1{
+    background-color: transparent;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.text-section p {
+    background-color: transparent;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.study-lock-home{
+    background: transparent;
+    /* height: 370px; */
+    margin-top: 130px; 
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 80%; */
+    height: auto;
+    max-width: 100%;
+    /* padding-top: 20px; */
+}
+/* info section  */
+.info-section-container{
+    background-color: #0e0e0e;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5% 15%;
+}
+.col{
+    background-color: #0e0e0e;
+}
+.card-body{
+    background-color: #0e0e0e;
+}
+.card {
+    border: none;
+    color: #b962e9;
+
+}
+.tools{
+    padding: 0;
+}
+.tools-body{
+    padding-top: 5%;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+.first-row{
+    padding-bottom: 5%;
+}
+/* background colors  */
+.white-background{
+    background-color: #1c1d1e;
+    padding: 5% 15%;
+}
+.gray-back{
+    background-color:#0e0e0e;
+    padding: 5% 15%;
+}
+.box{
+    background-color: #b962e9;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+}
+/* project overview  */
+.overview-info{
+    margin-bottom: 0;
+    background-color: transparent;
+    line-height: 1.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* objectives section  */
+.objectives-info{
+    margin-bottom: 0;
+    background-color: transparent;
+    line-height: 1.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.objectives-heading{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #b962e9;
+}
+ul{
+    background-color: transparent;
+    padding-top: 10px;
+    line-height: 1.8;
+}
+li{
+    background-color: transparent;
+}
+/* competitive analysis  */
+.comp-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+/* footer  */
+footer{
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #0e0e0e;
+    color: white;
+}
+footer p{
+    margin-top: 10px;
+    background-color: #0e0e0e;
+}
+@media screen and (max-width: 1000px){
+    .left-col{
+        height: 40vh;
+        padding-top: 20%;
+        background-color: #1c1d1e;
+    }
+    .right-col{
+        height: 60vh;
+        background-color: #1c1d1e;
+        text-align: center;
+    }
+    .text-section{
+        text-align: center;
+        background-color: transparent;
+    }
+    .text-section h1{
+        background-color: transparent;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .text-section p {
+        background-color: transparent;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .study-lock-home{
+        text-align: center;
+        background: transparent;
+        /* height: 650px; */
+        margin-top: 0px; 
+    }
+}
